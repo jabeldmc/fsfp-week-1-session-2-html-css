@@ -1,0 +1,80 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #efeee7;
+    font-family: Georgia , "Times New Roman" , Times , serif;
+    font-size: 13pt;
+    color: #333333;
+}
+
+header {
+    margin: 0px;
+    background-color: #333333;
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: #eee;
+}
+
+.container {
+    width: 1024px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#main-bio {
+    float: left;
+    width: 70%;
+}
+
+h2 {
+    margin: 0px;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#bio-image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+p {
+    margin: 0px;
+    margin-top: 20px;
+    line-height: 1.5em;
+}
+
+#contact-info {
+    float: left;
+    width: 30%;
+}
+
+ul {
+    margin: 0px;
+    margin-top: 20px;
+}
+
+li {
+    margin: 0px;
+    line-height: 1.5em;
+}
+
+a {
+    color: #d21034;
+}
